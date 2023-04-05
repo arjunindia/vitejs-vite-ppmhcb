@@ -1,6 +1,6 @@
 /// <reference lib="webworker" />
 
-import { parseMesh } from './utils';
+import { parseMesh } from './utils.ts';
 import * as Comlink from 'comlink';
 
 export const workerParseMesh = async (luaStr: string, meshId: number) => {

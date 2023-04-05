@@ -1,3 +1,4 @@
 import { workerParseMesh } from './utils';
 
-await workerParseMesh('lol', 0);
+const a = await workerParseMesh('lol', 0);
+console.log(a);

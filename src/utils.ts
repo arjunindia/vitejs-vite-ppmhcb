@@ -1,6 +1,6 @@
 import myWorker from './worker?worker';
 import * as Comlink from 'comlink';
-export const parshMesh = async (luaStr: string, meshId: number) => {
+export const parseMesh = async (luaStr: string, meshId: number) => {
   return `${luaStr}+${meshId}`;
 };
 const workerInstance = new myWorker();
